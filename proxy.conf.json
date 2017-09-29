@@ -1,0 +1,22 @@
+{
+	"/oauth/**": {
+		"target": {
+			"host": "transmedan-booking.herokuapp.com",
+			"protocol": "https:",
+			"port": 443
+		},
+		"secure": false,
+		"changeOrigin": true,
+		"logLevel": "info"
+	},
+	"/api/**" : {
+		"target": {
+			"host": "transmedan-booking.herokuapp.com",
+			"protocol": "https:",
+			"port": 443
+		},
+	    "secure": false,
+	    "changeOrigin": true,
+		"logLevel": "info"
+	}
+}
